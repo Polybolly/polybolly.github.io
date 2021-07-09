@@ -1,0 +1,55 @@
+body {
+    font-family: helvetica;
+    color: white;
+    background-color: black;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+
+.title>* {
+    margin: 0;
+}
+
+.title img {
+    margin-top: 5em;
+}
+
+#date {
+    color: #b1b1b1;
+    width: max-content;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #ff00e9;
+    margin-bottom: 1em;
+    font-size: 1.25rem;
+}
+
+.post {
+    margin: 1.5em 0px 0.5em 0px;
+}
+
+.blog {
+    width: max-content;
+}
+
+.user {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
